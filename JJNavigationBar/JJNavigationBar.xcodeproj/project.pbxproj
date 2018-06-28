@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		227C4773626FB54A20AF8B4F /* libPods-JJNavigationBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BF4F0D97AF392E44FA0398 /* libPods-JJNavigationBar.a */; };
+		61D19C3120E46BE500CE0EAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C3020E46BE500CE0EAE /* AppDelegate.m */; };
+		61D19C3420E46BE500CE0EAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C3320E46BE500CE0EAE /* ViewController.m */; };
+		61D19C3720E46BE500CE0EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D19C3520E46BE500CE0EAE /* Main.storyboard */; };
+		61D19C3920E46BE500CE0EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D19C3820E46BE500CE0EAE /* Assets.xcassets */; };
+		61D19C3C20E46BE500CE0EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D19C3A20E46BE500CE0EAE /* LaunchScreen.storyboard */; };
+		61D19C3F20E46BE500CE0EAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C3E20E46BE500CE0EAE /* main.m */; };
+		61D19C4920E46BE500CE0EAE /* JJNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C4820E46BE500CE0EAE /* JJNavigationBarTests.m */; };
+		61D19C5420E46BE500CE0EAE /* JJNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C5320E46BE500CE0EAE /* JJNavigationBarUITests.m */; };
+		61D19C6820E46C8E00CE0EAE /* UIView+JJNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C6320E46C8E00CE0EAE /* UIView+JJNavigationBar.m */; };
+		61D19C6920E46C8E00CE0EAE /* go_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D19C6420E46C8E00CE0EAE /* go_left@2x.png */; };
+		61D19C6A20E46C8E00CE0EAE /* go_left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D19C6520E46C8E00CE0EAE /* go_left@3x.png */; };
+		61D19C6B20E46C8E00CE0EAE /* UIColor+JJNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C6620E46C8E00CE0EAE /* UIColor+JJNav.m */; };
+		61D19C6E20E46D5000CE0EAE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C6D20E46D5000CE0EAE /* SecondViewController.m */; };
+		61D19C7120E46D8300CE0EAE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C7020E46D8300CE0EAE /* BaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61D19C4520E46BE500CE0EAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61D19C2420E46BE500CE0EAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61D19C2B20E46BE500CE0EAE;
+			remoteInfo = JJNavigationBar;
+		};
+		61D19C5020E46BE500CE0EAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61D19C2420E46BE500CE0EAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61D19C2B20E46BE500CE0EAE;
+			remoteInfo = JJNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09BF4F0D97AF392E44FA0398 /* libPods-JJNavigationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JJNavigationBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D19C2C20E46BE500CE0EAE /* JJNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D19C2F20E46BE500CE0EAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61D19C3020E46BE500CE0EAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61D19C3220E46BE500CE0EAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61D19C3320E46BE500CE0EAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61D19C3620E46BE500CE0EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61D19C3820E46BE500CE0EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61D19C3B20E46BE500CE0EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61D19C3D20E46BE500CE0EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D19C3E20E46BE500CE0EAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61D19C4420E46BE500CE0EAE /* JJNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D19C4820E46BE500CE0EAE /* JJNavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJNavigationBarTests.m; sourceTree = "<group>"; };
+		61D19C4A20E46BE500CE0EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D19C4F20E46BE500CE0EAE /* JJNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D19C5320E46BE500CE0EAE /* JJNavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJNavigationBarUITests.m; sourceTree = "<group>"; };
+		61D19C5520E46BE500CE0EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D19C6220E46C8E00CE0EAE /* UIColor+JJNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JJNav.h"; sourceTree = "<group>"; };
+		61D19C6320E46C8E00CE0EAE /* UIView+JJNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJNavigationBar.m"; sourceTree = "<group>"; };
+		61D19C6420E46C8E00CE0EAE /* go_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go_left@2x.png"; sourceTree = "<group>"; };
+		61D19C6520E46C8E00CE0EAE /* go_left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go_left@3x.png"; sourceTree = "<group>"; };
+		61D19C6620E46C8E00CE0EAE /* UIColor+JJNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JJNav.m"; sourceTree = "<group>"; };
+		61D19C6720E46C8E00CE0EAE /* UIView+JJNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJNavigationBar.h"; sourceTree = "<group>"; };
+		61D19C6C20E46D5000CE0EAE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		61D19C6D20E46D5000CE0EAE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		61D19C6F20E46D8300CE0EAE /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		61D19C7020E46D8300CE0EAE /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		6DA1C794982638D1949316DD /* Pods-JJNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJNavigationBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJNavigationBar/Pods-JJNavigationBar.release.xcconfig"; sourceTree = "<group>"; };
+		C94ED90220CB3E32BA0FE0DB /* Pods-JJNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJNavigationBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJNavigationBar/Pods-JJNavigationBar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61D19C2920E46BE500CE0EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227C4773626FB54A20AF8B4F /* libPods-JJNavigationBar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D19C4120E46BE500CE0EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D19C4C20E46BE500CE0EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10AB81DE5054AEAA63B5DB72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09BF4F0D97AF392E44FA0398 /* libPods-JJNavigationBar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61D19C2320E46BE500CE0EAE = {
+			isa = PBXGroup;
+			children = (
+				61D19C2E20E46BE500CE0EAE /* JJNavigationBar */,
+				61D19C4720E46BE500CE0EAE /* JJNavigationBarTests */,
+				61D19C5220E46BE500CE0EAE /* JJNavigationBarUITests */,
+				61D19C2D20E46BE500CE0EAE /* Products */,
+				A1EF11C2B42CF8A42B4B8FC6 /* Pods */,
+				10AB81DE5054AEAA63B5DB72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61D19C2D20E46BE500CE0EAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61D19C2C20E46BE500CE0EAE /* JJNavigationBar.app */,
+				61D19C4420E46BE500CE0EAE /* JJNavigationBarTests.xctest */,
+				61D19C4F20E46BE500CE0EAE /* JJNavigationBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61D19C2E20E46BE500CE0EAE /* JJNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				61D19C6120E46C2B00CE0EAE /* JJNavigationBar */,
+				61D19C2F20E46BE500CE0EAE /* AppDelegate.h */,
+				61D19C3020E46BE500CE0EAE /* AppDelegate.m */,
+				61D19C6F20E46D8300CE0EAE /* BaseViewController.h */,
+				61D19C7020E46D8300CE0EAE /* BaseViewController.m */,
+				61D19C3220E46BE500CE0EAE /* ViewController.h */,
+				61D19C3320E46BE500CE0EAE /* ViewController.m */,
+				61D19C6C20E46D5000CE0EAE /* SecondViewController.h */,
+				61D19C6D20E46D5000CE0EAE /* SecondViewController.m */,
+				61D19C3520E46BE500CE0EAE /* Main.storyboard */,
+				61D19C3820E46BE500CE0EAE /* Assets.xcassets */,
+				61D19C3A20E46BE500CE0EAE /* LaunchScreen.storyboard */,
+				61D19C3D20E46BE500CE0EAE /* Info.plist */,
+				61D19C3E20E46BE500CE0EAE /* main.m */,
+			);
+			path = JJNavigationBar;
+			sourceTree = "<group>";
+		};
+		61D19C4720E46BE500CE0EAE /* JJNavigationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				61D19C4820E46BE500CE0EAE /* JJNavigationBarTests.m */,
+				61D19C4A20E46BE500CE0EAE /* Info.plist */,
+			);
+			path = JJNavigationBarTests;
+			sourceTree = "<group>";
+		};
+		61D19C5220E46BE500CE0EAE /* JJNavigationBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61D19C5320E46BE500CE0EAE /* JJNavigationBarUITests.m */,
+				61D19C5520E46BE500CE0EAE /* Info.plist */,
+			);
+			path = JJNavigationBarUITests;
+			sourceTree = "<group>";
+		};
+		61D19C6120E46C2B00CE0EAE /* JJNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				61D19C6420E46C8E00CE0EAE /* go_left@2x.png */,
+				61D19C6520E46C8E00CE0EAE /* go_left@3x.png */,
+				61D19C6220E46C8E00CE0EAE /* UIColor+JJNav.h */,
+				61D19C6620E46C8E00CE0EAE /* UIColor+JJNav.m */,
+				61D19C6720E46C8E00CE0EAE /* UIView+JJNavigationBar.h */,
+				61D19C6320E46C8E00CE0EAE /* UIView+JJNavigationBar.m */,
+			);
+			path = JJNavigationBar;
+			sourceTree = "<group>";
+		};
+		A1EF11C2B42CF8A42B4B8FC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C94ED90220CB3E32BA0FE0DB /* Pods-JJNavigationBar.debug.xcconfig */,
+				6DA1C794982638D1949316DD /* Pods-JJNavigationBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61D19C2B20E46BE500CE0EAE /* JJNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D19C5820E46BE500CE0EAE /* Build configuration list for PBXNativeTarget "JJNavigationBar" */;
+			buildPhases = (
+				B5FE2BF7EFE1CAF181934C1F /* [CP] Check Pods Manifest.lock */,
+				61D19C2820E46BE500CE0EAE /* Sources */,
+				61D19C2920E46BE500CE0EAE /* Frameworks */,
+				61D19C2A20E46BE500CE0EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJNavigationBar;
+			productName = JJNavigationBar;
+			productReference = 61D19C2C20E46BE500CE0EAE /* JJNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61D19C4320E46BE500CE0EAE /* JJNavigationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D19C5B20E46BE500CE0EAE /* Build configuration list for PBXNativeTarget "JJNavigationBarTests" */;
+			buildPhases = (
+				61D19C4020E46BE500CE0EAE /* Sources */,
+				61D19C4120E46BE500CE0EAE /* Frameworks */,
+				61D19C4220E46BE500CE0EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61D19C4620E46BE500CE0EAE /* PBXTargetDependency */,
+			);
+			name = JJNavigationBarTests;
+			productName = JJNavigationBarTests;
+			productReference = 61D19C4420E46BE500CE0EAE /* JJNavigationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61D19C4E20E46BE500CE0EAE /* JJNavigationBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D19C5E20E46BE500CE0EAE /* Build configuration list for PBXNativeTarget "JJNavigationBarUITests" */;
+			buildPhases = (
+				61D19C4B20E46BE500CE0EAE /* Sources */,
+				61D19C4C20E46BE500CE0EAE /* Frameworks */,
+				61D19C4D20E46BE500CE0EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61D19C5120E46BE500CE0EAE /* PBXTargetDependency */,
+			);
+			name = JJNavigationBarUITests;
+			productName = JJNavigationBarUITests;
+			productReference = 61D19C4F20E46BE500CE0EAE /* JJNavigationBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61D19C2420E46BE500CE0EAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = luming;
+				TargetAttributes = {
+					61D19C2B20E46BE500CE0EAE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					61D19C4320E46BE500CE0EAE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61D19C2B20E46BE500CE0EAE;
+					};
+					61D19C4E20E46BE500CE0EAE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61D19C2B20E46BE500CE0EAE;
+					};
+				};
+			};
+			buildConfigurationList = 61D19C2720E46BE500CE0EAE /* Build configuration list for PBXProject "JJNavigationBar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61D19C2320E46BE500CE0EAE;
+			productRefGroup = 61D19C2D20E46BE500CE0EAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61D19C2B20E46BE500CE0EAE /* JJNavigationBar */,
+				61D19C4320E46BE500CE0EAE /* JJNavigationBarTests */,
+				61D19C4E20E46BE500CE0EAE /* JJNavigationBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61D19C2A20E46BE500CE0EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D19C3C20E46BE500CE0EAE /* LaunchScreen.storyboard in Resources */,
+				61D19C3920E46BE500CE0EAE /* Assets.xcassets in Resources */,
+				61D19C3720E46BE500CE0EAE /* Main.storyboard in Resources */,
+				61D19C6920E46C8E00CE0EAE /* go_left@2x.png in Resources */,
+				61D19C6A20E46C8E00CE0EAE /* go_left@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D19C4220E46BE500CE0EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D19C4D20E46BE500CE0EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5FE2BF7EFE1CAF181934C1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJNavigationBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61D19C2820E46BE500CE0EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D19C6E20E46D5000CE0EAE /* SecondViewController.m in Sources */,
+				61D19C6820E46C8E00CE0EAE /* UIView+JJNavigationBar.m in Sources */,
+				61D19C3420E46BE500CE0EAE /* ViewController.m in Sources */,
+				61D19C6B20E46C8E00CE0EAE /* UIColor+JJNav.m in Sources */,
+				61D19C3F20E46BE500CE0EAE /* main.m in Sources */,
+				61D19C7120E46D8300CE0EAE /* BaseViewController.m in Sources */,
+				61D19C3120E46BE500CE0EAE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D19C4020E46BE500CE0EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D19C4920E46BE500CE0EAE /* JJNavigationBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D19C4B20E46BE500CE0EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D19C5420E46BE500CE0EAE /* JJNavigationBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61D19C4620E46BE500CE0EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61D19C2B20E46BE500CE0EAE /* JJNavigationBar */;
+			targetProxy = 61D19C4520E46BE500CE0EAE /* PBXContainerItemProxy */;
+		};
+		61D19C5120E46BE500CE0EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61D19C2B20E46BE500CE0EAE /* JJNavigationBar */;
+			targetProxy = 61D19C5020E46BE500CE0EAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61D19C3520E46BE500CE0EAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61D19C3620E46BE500CE0EAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61D19C3A20E46BE500CE0EAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61D19C3B20E46BE500CE0EAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61D19C5620E46BE500CE0EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61D19C5720E46BE500CE0EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61D19C5920E46BE500CE0EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94ED90220CB3E32BA0FE0DB /* Pods-JJNavigationBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YWEH5GVC2C;
+				INFOPLIST_FILE = JJNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luming.JJNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61D19C5A20E46BE500CE0EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA1C794982638D1949316DD /* Pods-JJNavigationBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YWEH5GVC2C;
+				INFOPLIST_FILE = JJNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luming.JJNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61D19C5C20E46BE500CE0EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luming.JJNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJNavigationBar.app/JJNavigationBar";
+			};
+			name = Debug;
+		};
+		61D19C5D20E46BE500CE0EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luming.JJNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJNavigationBar.app/JJNavigationBar";
+			};
+			name = Release;
+		};
+		61D19C5F20E46BE500CE0EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luming.JJNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJNavigationBar;
+			};
+			name = Debug;
+		};
+		61D19C6020E46BE500CE0EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luming.JJNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJNavigationBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61D19C2720E46BE500CE0EAE /* Build configuration list for PBXProject "JJNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D19C5620E46BE500CE0EAE /* Debug */,
+				61D19C5720E46BE500CE0EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D19C5820E46BE500CE0EAE /* Build configuration list for PBXNativeTarget "JJNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D19C5920E46BE500CE0EAE /* Debug */,
+				61D19C5A20E46BE500CE0EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D19C5B20E46BE500CE0EAE /* Build configuration list for PBXNativeTarget "JJNavigationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D19C5C20E46BE500CE0EAE /* Debug */,
+				61D19C5D20E46BE500CE0EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D19C5E20E46BE500CE0EAE /* Build configuration list for PBXNativeTarget "JJNavigationBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D19C5F20E46BE500CE0EAE /* Debug */,
+				61D19C6020E46BE500CE0EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61D19C2420E46BE500CE0EAE /* Project object */;
+}
