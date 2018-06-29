@@ -9,7 +9,6 @@
 #import "UIView+JJNavigationBar.h"
 #import <objc/runtime.h>
 #import "Masonry.h"
-#import "UIColor+JJNav.h"
 
 #define NAV_HEIGHT 64
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
@@ -50,6 +49,9 @@
 
 
 
+/**
+ 自定义导航栏view
+ */
 @implementation JJNavigationBar
 
 - (instancetype)initWithFrame:(CGRect)frame{
@@ -146,3 +148,53 @@
 }
 
 @end
+
+
+/**
+ UIColor的一个类别，扩展hexColor
+ */
+@implementation UIColor (JJNav)
++ (UIColor *)colorWithHexString:(NSString *)hexString
+{
+    NSString *cString = [[hexString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
+    
+    // String should be 6 or 8 characters
+    if ([cString length] < 6) {
+        return [UIColor clearColor];
+    }
+    
+    // strip 0X if it appears
+    if ([cString hasPrefix:@"0X"])
+        cString = [cString substringFromIndex:2];
+    if ([cString hasPrefix:@"#"])
+        cString = [cString substringFromIndex:1];
+    if ([cString length] != 6)
+        return [UIColor clearColor];
+    
+    // Separate into r, g, b substrings
+    NSRange range;
+    range.location = 0;
+    range.length = 2;
+    
+    //r
+    NSString *rString = [cString substringWithRange:range];
+    
+    //g
+    range.location = 2;
+    NSString *gString = [cString substringWithRange:range];
+    
+    //b
+    range.location = 4;
+    NSString *bString = [cString substringWithRange:range];
+    
+    // Scan values
+    unsigned int r, g, b;
+    [[NSScanner scannerWithString:rString] scanHexInt:&r];
+    [[NSScanner scannerWithString:gString] scanHexInt:&g];
+    [[NSScanner scannerWithString:bString] scanHexInt:&b];
+    
+    return [UIColor colorWithRed:((float) r / 255.0f) green:((float) g / 255.0f) blue:((float) b / 255.0f) alpha:1.0f];
+}
+
+@end
+

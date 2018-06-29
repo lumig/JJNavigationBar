@@ -50,3 +50,9 @@
 
 @end
 
+
+@interface UIColor (JJNav)
++ (UIColor *)colorWithHexString:(NSString *)hexString;
+@end
+
+

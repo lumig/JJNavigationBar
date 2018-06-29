@@ -19,7 +19,6 @@
 		61D19C6820E46C8E00CE0EAE /* UIView+JJNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C6320E46C8E00CE0EAE /* UIView+JJNavigationBar.m */; };
 		61D19C6920E46C8E00CE0EAE /* go_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D19C6420E46C8E00CE0EAE /* go_left@2x.png */; };
 		61D19C6A20E46C8E00CE0EAE /* go_left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61D19C6520E46C8E00CE0EAE /* go_left@3x.png */; };
-		61D19C6B20E46C8E00CE0EAE /* UIColor+JJNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C6620E46C8E00CE0EAE /* UIColor+JJNav.m */; };
 		61D19C6E20E46D5000CE0EAE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C6D20E46D5000CE0EAE /* SecondViewController.m */; };
 		61D19C7120E46D8300CE0EAE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D19C7020E46D8300CE0EAE /* BaseViewController.m */; };
 /* End PBXBuildFile section */
@@ -59,11 +58,9 @@
 		61D19C4F20E46BE500CE0EAE /* JJNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D19C5320E46BE500CE0EAE /* JJNavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJNavigationBarUITests.m; sourceTree = "<group>"; };
 		61D19C5520E46BE500CE0EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61D19C6220E46C8E00CE0EAE /* UIColor+JJNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JJNav.h"; sourceTree = "<group>"; };
 		61D19C6320E46C8E00CE0EAE /* UIView+JJNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJNavigationBar.m"; sourceTree = "<group>"; };
 		61D19C6420E46C8E00CE0EAE /* go_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go_left@2x.png"; sourceTree = "<group>"; };
 		61D19C6520E46C8E00CE0EAE /* go_left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go_left@3x.png"; sourceTree = "<group>"; };
-		61D19C6620E46C8E00CE0EAE /* UIColor+JJNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JJNav.m"; sourceTree = "<group>"; };
 		61D19C6720E46C8E00CE0EAE /* UIView+JJNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJNavigationBar.h"; sourceTree = "<group>"; };
 		61D19C6C20E46D5000CE0EAE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		61D19C6D20E46D5000CE0EAE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
@@ -173,8 +170,6 @@
 			children = (
 				61D19C6420E46C8E00CE0EAE /* go_left@2x.png */,
 				61D19C6520E46C8E00CE0EAE /* go_left@3x.png */,
-				61D19C6220E46C8E00CE0EAE /* UIColor+JJNav.h */,
-				61D19C6620E46C8E00CE0EAE /* UIColor+JJNav.m */,
 				61D19C6720E46C8E00CE0EAE /* UIView+JJNavigationBar.h */,
 				61D19C6320E46C8E00CE0EAE /* UIView+JJNavigationBar.m */,
 			);
@@ -350,7 +345,6 @@
 				61D19C6E20E46D5000CE0EAE /* SecondViewController.m in Sources */,
 				61D19C6820E46C8E00CE0EAE /* UIView+JJNavigationBar.m in Sources */,
 				61D19C3420E46BE500CE0EAE /* ViewController.m in Sources */,
-				61D19C6B20E46C8E00CE0EAE /* UIColor+JJNav.m in Sources */,
 				61D19C3F20E46BE500CE0EAE /* main.m in Sources */,
 				61D19C7120E46D8300CE0EAE /* BaseViewController.m in Sources */,
 				61D19C3120E46BE500CE0EAE /* AppDelegate.m in Sources */,
