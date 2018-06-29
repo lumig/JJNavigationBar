@@ -8,7 +8,7 @@
 
 #import "SecondViewController.h"
 #import "UIView+JJNavigationBar.h"
-#import <Masonry.h>
+#import "Masonry.h"
 @interface SecondViewController ()<UITableViewDelegate,UITableViewDataSource,UIGestureRecognizerDelegate>
 @property (nonatomic,strong) UITableView *tableView;
 

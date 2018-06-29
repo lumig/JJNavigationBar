@@ -8,7 +8,7 @@
 
 #import "UIView+JJNavigationBar.h"
 #import <objc/runtime.h>
-#import <Masonry.h>
+#import "Masonry.h"
 #import "UIColor+JJNav.h"
 
 #define NAV_HEIGHT 64
