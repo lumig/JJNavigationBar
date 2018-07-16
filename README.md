@@ -7,3 +7,11 @@
 解决隐藏导航栏
 但这个scroll的轮播图却依然在状态栏以下，并没有将状态栏覆盖。因为状态栏存在，即使隐藏了导航栏，scroll依然会给我们预留部分空白，所有内容向下偏移20px像素位置，当你滑动scroll时，又会将状态栏覆盖掉。此时我们需要设置：
 self.automaticallyAdjustsScrollViewInsets =NO;
+
+建议建立一个BaseViewController 方便复用
+
+使用代码如下：
+```
+_navigationBar = [[JJNavigationBar alloc] init];
+[self.view addSubview:_navigationBar];
+```
